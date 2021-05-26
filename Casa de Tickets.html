@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Tickets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="img-logo"><img src="https://images.pexels.com/photos/1649683/pexels-photo-1649683.jpeg" width="80" height="35" alt="logo" id="header-img"></a>
+                <div class="divider"></div>
+                <p class="desc">Casa de Tickets</p>
+            </div>
+            <button id="toggle" class="toggle"><i class="fa fa-bars"></i></button>
+            <nav id="nav-bar" class="nav-bar">
+                <div class="nav"><a href="#products" class="nav-link">Tickets</a></div>
+                <div class="nav price"><a href="#video-div" class="nav-link">Trailers</a></div>
+                <div class="nav hide-sm"><a href="#search-form" class="nav-link">Search</a></div>      
+                <div class="nav hide-sm"><a href="#contact" class="nav-link">Contact Us</a></div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+        <div class="side">
+            <button class="close-btn">&#10006</button>
+            <div class="s-logo">
+                <a href="#" class="s-img-logo"><img src="https://images.pexels.com/photos/1649683/pexels-photo-1649683.jpeg" alt="logo"></a>
+                <div class="s-divider"></div>
+                <p class="s-desc">Casa <span class="de">De</span> Tickets</p>
+            </div>
+            <nav id="nav-bar" class="s-nav-bar">
+                <div class="s-nav"><a href="#products" class="s-nav-link">Tickets</a></div>
+                <div class="s-nav"><a href="#video-div" class="s-nav-link">Trailers</a></div>
+                <div class="s-nav"><a href="#search-form" class="s-nav-link">Search</a></div>      
+                <div class="s-nav"><a href="#contact" class="s-nav-link">Contact Us</a></div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="hider"></div>
+    <div class="img-overlay">
+        <div class="overlay"></div>
+        <div class="welcome">
+            <h2>Get Your Tickets!</h2>
+            <span class="key">Hottest Keywords: Avengers Endgame, Once Upon a Time in Hollywood, Tenet</span>
+            <form action="post" id="search-form">
+                <input type="text" class="search-input" placeholder="Enter a movie or a theater">
+                <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+            </form>
+        </div>
+    </div>
+    <div id="products">
+        <h2 class="product-head">Showing in Cinemas</h2>
+        <div class="divide"></div>
+        <div class="product-container">
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/09/16/b309a297566c0538b9830a122892dd9b.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>The Devil All the Time</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/09/05/e3170fb247ed86cf12cf7160c0ee8066.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>The Owners</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/09/04/8a3c1423698b5c957fd935155add0de0.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>The Devil within</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/09/25/f65188b0260c184d8cfd22ce2c31e723.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>Secret Society of Second Born Royals</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/09/13/a86a5b3de1085f604f777da01b7f91e7.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>Lion</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/10/06/47db55a54e67c066b6aa3d5f0ef55c68.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>The Doorman</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/10/18/01e7805a5a275d5d31d2a1ad7c71ea06.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>Love and Monsters</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://imgshare.info/images/2020/10/18/8c656b121b61195f75ed29279f593636.jpg" alt="a Shot">
+                </div>
+                <div class="product-text">
+                    <p>
+                        <span>Synopsis</span>
+                        <br>
+                        <span>Lorem ipsum dolor sit amet consec shakira, adipisicing elit. Nisi, veniam!</span>
+                    </p>
+                </div>
+                <div class="pro-name">
+                    <h4>The Devil has a Name</h4>
+                    <button class="pro-btn">Buy</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div id="video-div">
+        <h3 class="video-head">Movie Trailers</h3>
+        <div class="divide"></div>
+        <div class="videos">
+            <iframe id="video" class="video" src="https://www.youtube.com/embed/UZCO5k1Nu70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/XsN9NnD0tFY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/plX9UeMTBdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/n9xhJrPXop4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        </div>
+    </div>
+
+    <div class="form" id="contact">
+        <form action="https://www.freecodecamp.com/email-submit" id="form" class="d-form">
+            <h2>Contact Form</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter a Name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter an Email">
+            <label for="phone">No:</label>
+            <input type="text" id="phone">
+            <label for="comment">Description:</label>
+            <textarea name="request" id="comment" cols="20" rows="7" placeholder="Leave a Comment">
+            </textarea>
+            <button type="submit" id="submit" class="submit">Submit</button>
+        </form>
+        
+        <div class="about">
+            <div class="one">
+                <h2>About Us:</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis ducimus corporis deserunt dolor molestias eius, quo ex
+                    minima enim amet eligendi aliquam error adipisci saepe reiciendis aspernatur laudantium eum.
+                </p>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                    <li><b>Iamxxx333@gmail.com</b></li>
+                    <li><b>Plot 2, Lane 3, Chicago, Ilinois</b></li>
+                    <li><b>08166179988</b></li>
+            </div>
+            <div class="social">
+                <h3>Connect With Us</h3>
+                    <li>
+                        <a href="#">
+                            <img class="social-img" src="https://vivacinemas.com/wp-content/uploads/2019/03/facebook_circle-512-300x300.png" alt="social" width="20" height="20">
+                           Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="social-img" src="https://vivacinemas.com/wp-content/uploads/2019/03/twitter-512-300x300.png" alt="social" width="20" height="20">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="social-img" src="https://vivacinemas.com/wp-content/uploads/2019/03/social-instagram-new-circle-512-300x300.png" alt="social" width="20" height="20">
+                            Instagram
+                        </a>
+                    </li>
+            </div>
+        </div>
+    </div>
+    <div class="pre-footer" id="pre-footer">
+        <div class="footer">
+            <p>Footer</p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere a maiores eligendi veniam adipisci itaque laborum vitae voluptatum magni saepe?
+            </p>
+        </div>
+        <div class="blog-post">
+            <p>Casa de Tickets</p>
+            <ul class="blog-list">
+                <li>
+                    <img src="https://imgshare.info/images/2020/09/05/e3170fb247ed86cf12cf7160c0ee8066.jpg" alt="wow">
+                    <span>
+                        Terms<br> and conditions
+                    </span>
+                </li>
+                <li>
+                    <img src="https://imgshare.info/images/2020/09/25/f65188b0260c184d8cfd22ce2c31e723.jpg" alt="soft">
+                    <span>
+                        Privacy Policy<br> and Regulations
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="tags">
+            <p>Popular Tags</p>
+            <button class="tag">Viva Cinema</button>
+            <button class="tag">Avengers</button>
+            <button class="tag">Wedding Party</button>
+            <button class="tag">Star Wars</button>
+            <button class="tag">Marvel</button>
+            <button class="tag">Scarlett Johansson</button>
+            <button class="tag">Viva Cinema</button>
+            <button class="tag">Oscar Nominated</button>
+            <button class="tag">Parasite</button>
+            <button class="tag">Iron Man</button>
+        </div>
+    </div>
+    <footer>
+        Designed by Dayo-Ajobiewe Hope 2020
+    </footer>
+
+    <script>
+        var btn = document.getElementById('toggle');
+        var drop = document.getElementById('sidebar');
+        var close = document.querySelector('.close-btn');
+
+        btn.addEventListener('click', function() {
+            drop.classList.add("side-show");
+        });
+
+        close.addEventListener('click', () => {
+            drop.classList.remove("side-show");
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "casa-de-tickets",
+  "version": "1.0.0",
+  "description": "Landing page form movie tickets company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamxxx777/CASA-DE-TICKETS.git"
+  },
+  "keywords": [
+    "Movie",
+    "Tickets"
+  ],
+  "author": "Dayo-ajobiewe Hope",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamxxx777/CASA-DE-TICKETS/issues"
+  },
+  "homepage": "https://github.com/iamxxx777/CASA-DE-TICKETS#readme"
+}
